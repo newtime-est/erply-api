@@ -1,0 +1,20 @@
+{
+    "name": "newtime-est/erply-api",
+    "description": "Erply inventory Api request handler.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andres Spak",
+            "email": "andres@newtime.ee"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "NewtimeEst\\ErplyApi\\": "src"
+        }
+    }
+}
